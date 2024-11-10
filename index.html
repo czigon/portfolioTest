@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfólio de Desenvolvimento</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <h1 class="logo">Meu Portfólio</h1>
+          <ul class="nav-links">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+      <section class="hero">
+        <div class="container">
+          <h2>Olá, eu sou [Seu Nome]</h2>
+          <p>Desenvolvedor Web apaixonado por criar experiências incríveis.</p>
+          <a href="#projects" class="btn">Veja meus projetos</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="about">
+        <div class="container">
+          <h2>Sobre Mim</h2>
+          <p>
+            Uma breve descrição sobre você, suas habilidades e sua experiência.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <h2>Meus Projetos</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <img src="images/project1.jpg" alt="Projeto 1" />
+              <h3>Projeto 1</h3>
+              <p>Descrição do projeto 1.</p>
+              <a href="#" class="btn">Ver Projeto</a>
+            </div>
+            <div class="project-card">
+              <img src="images/project2.jpg" alt="Projeto 2" />
+              <h3>Projeto 2</h3>
+              <p>Descrição do projeto 2.</p>
+              <a href="#" class="btn">Ver Projeto</a>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contato</h2>
+          <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 Portfólio. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
